@@ -50,3 +50,13 @@ p{
     font-size: 25px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+@media (min-width: 500px) {
+    .container {
+        grid-template-columns: 100px 100px 100px;
+        grid-template-areas: 
+        "title image"
+        "tekst";
+
+    }
+}
